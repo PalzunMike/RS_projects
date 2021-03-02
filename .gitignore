@@ -103,7 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-/vendor/node_modules/*
-/vendor/node_modules/jquery/*
-!/vendor/node_modules/jquery/
-!/vendor/node_modules/jquery/dist/
+*/node_modules/*
+*/node_modules/jquery/*
+!*/node_modules/jquery/
+!*/node_modules/jquery/dist/
