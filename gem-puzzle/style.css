@@ -1,0 +1,88 @@
+body{
+    position: relative;
+    font-family: 'Grandstander', cursive;
+    background-image: url(assets/image/background.png);
+}
+
+.field{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;    
+    border-radius: 10px;
+    background-color: rgb(255, 32, 32);
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0 60px;
+}
+
+.cell{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #479e00bb;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    user-select: none;
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.info_block{
+    width: 350px;
+    margin: 15px auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup{
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    top: 15%;
+    left: 40%;
+    transition: all 1s;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.popup_text{
+    font-size: 20px;
+    text-align: 1.9em;
+    text-align: center;       
+    user-select: none; 
+}
+
+.btn_popup{
+    padding: 5px 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+}
+.hidden{
+    top: -100%;
+}
+
+.empty{
+    display: none;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>RS CSS</title>
+</head>
+<body>  
+    <div class="main_wrapper">
+        <div class="wrapper">
+            <div class="popup_win popup_hidden">     
+                <p>Congratulations!<br>Completed all levels!</p>
+                <button class="again_btn">pass again</button>
+            </div>
+            <div class="game_field"> 
+                <h1 class="game_task"></h1>
+                <div class="table">
+                    <div class="table_tabletop work_place">                        
+                    </div>
+                    <div class="table_tableborder">
+                        <div class="table_leg"></div> 
+                        <div class="table_leg"></div>
+                    </div>                   
+                </div>
+                <div class="popup_tooltip"></div>
+            </div>
+            <div class="input_field">
+                <div class="css_editor">            
+                    <div class="header_input_field">
+                        <span>CSS Editor</span>
+                        <span>style.css</span>
+                    </div>                
+                    <div class="css_field">
+                        <div class="line_numbers">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                            <span>11</span>
+                            <span>12</span>
+                            <span>13</span>
+                            <span>14</span>
+                            <span>15</span>
+                            <span>16</span>
+                        </div>
+                        <input class="input_strobe" type="text" placeholder="Type in a CSS selector">
+                        <button class="css_field_btn" onclick="checkLevel(event)">enter</button>
+                        <button class="help_btn">HELP</button>
+                    </div>
+                </div>
+                <div class="html_viewer">
+                    <div class="header_input_field">
+                        <span>HTML Viewer</span>
+                        <span>index.html</span>
+                    </div>                
+                    <div class="html_field">
+                        <div class="line_numbers">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                            <span>11</span>
+                            <span>12</span>
+                            <span>13</span>
+                            <span>14</span>
+                            <span>15</span>
+                            <span>16</span>
+                        </div>
+                        <div class="markup">                                                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="level_field">
+            <h2>Level</h2>
+            <p class="level_item current_level">1 level</p>
+            <p class="level_item">2 level</p>
+            <p class="level_item">3 level</p>
+            <p class="level_item">4 level</p>
+            <p class="level_item">5 level</p>
+            <p class="level_item">6 level</p>
+            <p class="level_item">7 level</p>
+            <p class="level_item">8 level</p>
+            <p class="level_item">9 level</p>
+            <p class="level_item">10 level</p>
+            <button class="reset_level">Reset Progress</button>
+        </div>
+    </div>
+    <footer>
+        <span class="github">2020 by <a href="https://github.com/PalzunMike" target="blank">Mike Palzun</a></span>
+        <a href="https://rs.school/js/" class="Rsschool" target="blank"><img src="assets/rs_school_js.svg" alt="RSSchol_logo"></a>
+    </footer>
+    <script src="const.js"></script>
+    <script src="service.js"></script>
+    <script src="script.js"></script>    
+</body>
+</html>
