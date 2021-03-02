@@ -1,1 +1,1 @@
-https://palzunmike.github.io/RS_projects/momentum/index.html
+https://palzunmike.github.io/RS_projects/momentum
